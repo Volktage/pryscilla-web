@@ -1,6 +1,6 @@
 import './App.css';
 import FlowfieldAnimation from './components/FlowfieldAnimation';
-import prysPhoto from '/prys.png';
+import prysPhoto from './assets/prys.png'; 
 
 function App() {
   return (
