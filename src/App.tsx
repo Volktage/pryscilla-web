@@ -1,5 +1,6 @@
 import './App.css';
 import FlowfieldAnimation from './components/FlowfieldAnimation';
+import prysPhoto from '/prys.png';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
 
       <div className="container content-foreground">
         <header className="hero">
-          <img src="/prys.png" alt="Foto de Pryscilla Miranda" className="profile-photo" />
+          <img src={prysPhoto} alt="Foto de Pryscilla Miranda" className="profile-photo" />
           
           <h1>Pryscilla Faria Miranda</h1>
           <p className="crp">CRP 01/29774</p>
