@@ -11,6 +11,7 @@ function App() {
 
       <div className="container content-foreground">
         <header className="hero">
+          {/* Use a variável importada no 'src' */}
           <img src={prysPhoto} alt="Foto de Pryscilla Miranda" className="profile-photo" />
           
           <h1>Pryscilla Faria Miranda</h1>
