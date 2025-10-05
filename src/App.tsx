@@ -1,6 +1,7 @@
 import './App.css';
 import FlowfieldAnimation from './components/FlowfieldAnimation';
-import prysPhoto from './assets/prys.png'; 
+
+const prysPhoto = new URL('./assets/prys.png', import.meta.url).href;
 
 function App() {
   return (
@@ -47,7 +48,6 @@ function App() {
 
         <footer className="footer">
           <p>Pryscilla Faria Miranda - CRP 01/29774</p>
-          <p>Contato: seu.email@dominio.com</p>
         </footer>
       </div>
     </>
